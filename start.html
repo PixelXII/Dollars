@@ -10,7 +10,6 @@ function picto() {
  document.getElementById("pass").submit;
  var password = document.getElementById("pass").value;
  if(password === "scarves") {
-  window.location="forum.html";
   alert(password);
  }
 }
@@ -19,7 +18,7 @@ function picto() {
 <body style="background-color:black;">
  <div style="align:center">
 <form class="words">
- <label for="pass" id="pass" style="color:white;">Pass:</label>
+ <label for="pass" id="pass" style="color:white;">Password:</label>
   <input id="pass" type="password" onsubmit="reDirect()">
 <input type="image" src="./Black.jpg" width="20" height="20" onclick="picto()" style="font-family:'Aldrich'; background-color:black; font-size:22px;">
        </form>
