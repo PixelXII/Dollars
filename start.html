@@ -21,7 +21,7 @@ function picto() {
  <div style="align:center">
 <form class="words">
  <label for="pass" id="pass" style="color:white;">PASSWORD:</label>
-  <input id="pass" type="password" onsubmit="reDirect()">
+  <input id="pass" type="text" onsubmit="picto()">
  <div><br></div>
 <input type="image" src="./enter3.png" onclick="document.getElementById("pass").submit" onMouseOver="./enter.png" style="font-family:'Aldrich'; background-color:black; font-size:22px;">
        </form>
@@ -47,6 +47,11 @@ function picto() {
     border: 3px solid black;
     text-align: center;
    }  
+   #pass {
+    font-family: 'Aldrich';
+    
+    
+   }
    @font-face {
   font-family: 'Orbitron';
   font-style: normal;
