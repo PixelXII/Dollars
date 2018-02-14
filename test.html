@@ -1,20 +1,28 @@
 <head>
-<title>^Test^</title>
+  <title>Testing</title>
 </head>
 
-<script>
-var passwords = document.getElementById("three").value;
-  if(passwords === "weep") {
-   alert("Correct Password!!!!"); 
-    
-  }
-</script>
-
 <body>
-<form id="password">
-<input type="password" id="three" style="color:blue;">
-<input type="submit" onclick="document.getElementById("three").submit">
+<div class="wrapper">
+    <form class="form1" action="http://google.com">
+        <div class="formtitle">
+            Enter the password to proceed
+        </div>
 
+        <div class="input nobottomborder">
+            <div class="inputtext">
+                Password:
+            </div>
 
+            <div class="inputcontent">
+                <input type="password" id="password" /><br />
+            </div>
+        </div>
 
+        <div class="buttons">
+            <input class="orangebutton" type="submit" value="Login" onclick="if (document.getElementById('password').value == 'hello') alert('Correct Password!'); else alert('Wrong Password!');" />
+        </div>
+    </form>
+</div>
+  
 </body>
