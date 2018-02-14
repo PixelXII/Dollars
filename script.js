@@ -10,3 +10,5 @@ function picto() {
   
  }
 }
+
+alert("You have initiated this program");
