@@ -1,34 +1,18 @@
 <head>
- <title>Dollars</title>
- <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
- <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
+    <title>Dollars</title>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
 </head>
-
 <body style="background-color:black;">
- <script>
- function picto() {
- document.getElementById("pass").submit;
- if(document.getElementById("pass").value === "baccano") {
-  console.log(document.getElementById("pass").value);
-  reDirect();
-      }
- else {
-  return false;
-  alert("Incorrect password.");
-  
- }
-}
-
-alert("You have initiated this program");
- 
- </script>
- <div style="align:center">
-<form class="words">
- <label for="pass" id="pass" style="color:white;">PASSWORD:</label>
-  <input id="pass" type="password" width="231" length="31" method="POST" onsubmit="picto()">
- <div><br></div>
-<input type="image" src="./enter3.png" onclick="document.getElementById("pass").submit" onMouseOver="./enter.png" style="font-family:'Aldrich'; background-color:black; font-size:22px;">
-       </form>
- </div>
-  
+   
+    <div style="align:center">
+        <form class="words">
+            <label for="password" style="color:white;">PASSWORD:</label>
+            <input id="password" type="password" width="231" length="31" method="POST" onsubmit="if (document.getElementById("password").value == 'baccano') { window.location = "https://docs.google.com";} else { return false; alert("Incorrect password.");">
+            <div>
+                <br>
+            </div>
+            <input type="image" src="./enter3.png" onclick="document.getElementById(" pass ").submit" onMouseOver="./enter.png" style="font-family:'Aldrich'; background-color:black; font-size:22px;">
+        </form>
+    </div>
 </body>
