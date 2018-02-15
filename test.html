@@ -3,10 +3,21 @@
   <link href="style.css" media="screen" rel="stylesheet" type="text/css"> 
 </head> 
 <body style="background-color:black;"> 
+  <script type="text/javascript">
+  function submitForm() {
+   var entryLogin = document.getElementById("pword").value;
+   alert(entryLogin);
+  }
+    
+    
+    
+    
+  </script>
   <div style="align:center;"> 
     <form class="words"> 
       <label for="pword">PASSWORD:</label> 
       <input id="pword" type="text" class="pass"> 
-      <input class="buttonInput" type="
+      <input class="buttonInput" type="submit" onclick="submitForm()">
+    </form>
              </div> 
       </body>
