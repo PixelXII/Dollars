@@ -8,7 +8,7 @@
   function submitForm() {
    var entryLogin = document.getElementById("pword").value;
     if(entryLogin == "baccano") {
-   alert(entryLogin);
+   window.location="./forum.html";
     } else {
      alert(entryLogin + " is not the password."); 
     }
@@ -22,7 +22,7 @@
   <div style="align:center;" class='words'> 
     <form class="words"> 
       <label for="pword">PASSWORD:</label> 
-      <input id="pword" type="text" class="pass"> 
+      <input id="pword" type="password" class="pass"> 
       <input class="buttonInput" type="submit" onclick="submitForm()">
     </form>
              </div> 
