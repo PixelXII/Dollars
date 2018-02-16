@@ -1,7 +1,7 @@
 function reDirect() {
  window.location("./forum.html");  
+ 
 }
-
 function submitForm() {
    var entryLogin = document.getElementById("pword").value;
     if(entryLogin == 'baccano') {
