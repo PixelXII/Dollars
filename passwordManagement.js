@@ -1,5 +1,5 @@
 function reDirect() {
- window.location.assign("./forum.html");  
+ location.assign("./forum.html");  
 }
 function submitForm() {
    var entryLogin = document.getElementById("pword").value;
