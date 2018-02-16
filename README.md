@@ -1,7 +1,5 @@
 # Dollars
-form class: words
-Password input id: password class: pass
-Submit input class: buttonInput
-div--style="align:center"
-body--style="background-color:black;"
-link href="style.css" media="screen" rel="stylesheet" type="text/css"
+
+This repository is a spin-off of the Dollars website from Durarara!!.
+
+I used dollars-bbs.org for reference, on occasion.
