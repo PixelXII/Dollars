@@ -7,7 +7,9 @@ function submitForm() {
     if(entryLogin == 'baccano') {
       reDirect();
     }
- 
+ if(entryLogin.length > 8) {
+  alert("The password is too long.");
+ }
     else {
      alert("\"" + entryLogin + "\" is not the password.");
      return false;
