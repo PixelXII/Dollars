@@ -4,19 +4,15 @@
  
  <body style="background-color:black;">
  
- <div class="words">
+ <div style="align:center;" class="words">
     <form class="form1" action="http://google.com">
-        <div class="formtitle">
-            Enter the password to proceed
-        </div>
-
-        <div>
-         
-
-            <div class="inputcontent">
+        
+     <label for='password'>PASSWORD:</label>
+     
+            <div style="align:center;">
                 <input type="password" id="password"/>
             </div>
-        </div>
+        
 
         <div>
             <input class="buttonInput" type="submit" onclick="if (document.getElementById('password').value == 'hello') alert('Correct Password!'); else alert('Wrong Password!'); return false;" />
