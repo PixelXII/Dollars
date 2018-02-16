@@ -1,5 +1,5 @@
 function reDirect() {
- location.assign("forum.html");
+ window.location("forum.html");
 }
 
 function submitForm() {
