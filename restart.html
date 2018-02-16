@@ -4,13 +4,13 @@
   <link href="style.css" media="screen" rel="stylesheet" type="text/css"> 
 </head> 
 <body style="background-color:black;"> 
-  <script type="text/javascript">
+  <script>
   function submitForm() {
    var entryLogin = document.getElementById("pword").value;
     if(entryLogin == "baccano") {
    window.location("forum.html");
     } else {
-     alert(entryLogin + " is not the password.");
+     alert("\"" + entryLogin + "\" is not the password.");
      return false;
     }
     console.log(entryLogin);
