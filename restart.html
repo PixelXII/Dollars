@@ -4,24 +4,7 @@
   <link href="style.css" media="screen" rel="stylesheet" type="text/css"> 
 </head> 
 <body style="background-color:black;"> 
-  <script>
-  function submitForm() {
-   var entryLogin = document.getElementById("pword").value;
-    if(entryLogin == 'baccano') {
-      alert("Entering...");
-      window.location("https://pixelxii.github.io/Dollars/forum.html");
-    }
-    else {
-     alert("\"" + entryLogin + "\" is not the password.");
-     return false;
-    }
-    console.log(entryLogin);
-  }
-    
-    
-    
-    
-  </script>
+  <script src="passwordManagement.js"/>
   <div style="align:center;" class='words'> 
     <form class="words"> 
       <label for="pword">PASSWORD:</label> 
