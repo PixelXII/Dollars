@@ -1,14 +1,14 @@
 
 
-var spam = entryLogin.length - 8;
+
 
 function submitForm() {
   var entryLogin = document.getElementById("pword").value;
     if(entryLogin == 'baccano') {
       window.location("./forum.html");
     }
- 
- if(entryLogin.length > 8) {
+ var spam = entryLogin.length - 8;
+ if(spam > 8) {
   alert("The password is " + spam + " characters too long.");
  }
     else {
