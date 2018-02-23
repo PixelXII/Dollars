@@ -11,10 +11,9 @@ function submitForm() {
  if(spam > 8) {
   alert("The password is " + spam + " characters too long.");
  }
-    else {
-     alert("\"" + entryLogin + "\" is not the password.");
-     return false;
-    }
- 
+ else {
+  document.write('<p style="color:red;">Please enter the correct password.</p>');
+   
+ }
     console.log(entryLogin);
   }
