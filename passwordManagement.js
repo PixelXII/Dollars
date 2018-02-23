@@ -1,6 +1,7 @@
-
 var entryLogin = document.getElementById("pword").value;
+
 var spam = entryLogin.length - 8;
+
 function submitForm() {
   
     if(entryLogin == 'baccano') {
