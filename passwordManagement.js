@@ -12,7 +12,7 @@ function submitForm() {
   alert("The password is " + spam + " characters too long.");
  }
  else {
-  document.write('<p style="color:black;">Please enter the correct password.</p>');
+  document.getElementById("incorrectPword").style.color = "white";
    
  }
     console.log(entryLogin);
