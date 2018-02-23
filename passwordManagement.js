@@ -1,9 +1,9 @@
-var entryLogin = document.getElementById("pword").value;
+
 
 var spam = entryLogin.length - 8;
 
 function submitForm() {
-  
+  var entryLogin = document.getElementById("pword").value;
     if(entryLogin == 'baccano') {
       window.location("./forum.html");
     }
