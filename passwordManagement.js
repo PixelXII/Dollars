@@ -7,6 +7,7 @@ function submitForm() {
     if(entryLogin == 'baccano') {
       window.location = "./forum.html"
     } else {
-  document.getElementById("incorrectPword").style.color = "red";
+  var pw = document.getElementById("incorrectPword")
+  pw.style.color = "red";
     }
   }
