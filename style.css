@@ -11,13 +11,6 @@
  color:white;
 }
 
-.buttonInput {
- height: 0px;
- width: 0px;
- border: none;
- padding: 0px;
- 
-}
    @font-face {
   font-family: 'Orbitron';
   font-style: normal;
@@ -29,5 +22,6 @@
     font-family: 'Orbitron';font-size: 22px;
 }
 #pword {
-    border-radius:5px;
+ border-radius:5px;
+ color:black;
 }
