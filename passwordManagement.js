@@ -8,6 +8,9 @@ pword.addEventListener('keypress', function(e) {
 
 function submit() {
   if(btoa(pword.value) === pwn) {
-    location = './forum.html'\
+    pword.value = ""
+    location = './forum.html'
   } else {
-    
+    document.getElementById('error').innerText = 'incorrect password'
+  }
+}
