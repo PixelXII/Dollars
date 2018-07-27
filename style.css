@@ -18,14 +18,10 @@
     text-align: center;
    }  
 
-#incorrectPword {
- font-family: 'Aldrich';
+* {
+ font-family:'Aldrich';
 }
-   #pass {
-    font-family: 'Aldrich';
-    
-    
-   }
+
 .buttonInput {
  height: 0px;
  width: 0px;
@@ -43,8 +39,6 @@
    body {
     font-family: 'Orbitron';font-size: 22px;
 }
-   .pass {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-   }
+.pass {
+    border-radius:5px;
+}
