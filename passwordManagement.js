@@ -1,13 +1,13 @@
-
-
-
-
-function submitForm() {
-  var entryLogin = document.getElementById("pword").value;
-    if(entryLogin == 'baccano') {
-      window.location = "./forum.html"
-    } else {
-  var pw = document.getElementById("incorrectPword")
-  pw.style.color = "red";
-    }
+var pword = document.getElementById('pword')
+var pwn = 'YmFjY2Fubw=='
+pword.addEventListener('keypress', function(e) {
+  if(e.keyCode === 13) {
+    submit()
   }
+});
+
+function submit() {
+  if(btoa(pword.value) === pwn) {
+    location = './forum.html'\
+  } else {
+    
