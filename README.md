@@ -1,5 +1,1 @@
-# Dollars
-
-This repository is a spin-off of the Dollars website from Durarara!!.
-
-I used dollars-bbs.org for reference, on occasion.
+My own attempt at re-creating a static website of (the dollars website)[dollars.bbs.org] from Durarara!!
